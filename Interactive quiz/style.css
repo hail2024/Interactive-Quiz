@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://cdn.pixabay.com/photo/2014/04/04/21/56/bokeh-313993_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.sheet-style {
+  background: rgba(255, 255, 255, 0.9); /* light transparency */
+  border: 2px solid #d3cce3;
+  border-radius: 12px;
+  padding: 30px;
+  width: 420px;
+  box-shadow: 0 10px 25px rgba(170, 140, 255, 0.2);
+}
+
+
+.sheet-style:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #5e4b8b;
+}
+
+.question-box {
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #d6c8ec;
+  padding: 14px;
+  margin-bottom: 20px;
+  background-color: #f4f0fa;
+  border-radius: 6px;
+  color: #4b3d73;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6c8ec;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #fefbff;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.option-row:hover {
+  background-color: #ece0fa;
+}
+
+input[type="radio"] {
+  transform: scale(1.2);
+  margin-right: 12px;
+  accent-color: #a678f4;
+}
+
+label {
+  color: #4b3d73;
+  font-weight: 500;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a678f4;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #7a51cc;
+}
